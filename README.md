@@ -11,6 +11,7 @@ Instructions:
 (c) Two directories containing .tsv files with peptide mapping data. Each .tsv file stands for one tissue and should be named accordingly. There should be following columns in the .tsv files: 1) peptide sequence, 2) protein id (=transcriptid from .gtf files), 3) “+” if peptide is unique (found in one protein), “-” if not. These two directories should be named mappeddefault and mappedrelaxed. 
 
 2. Go to the directory X and run the pipeline.
+’’’
     bash /path/to/directoryX/scripts/runbip.sh  
-    
+’’’ 
 3. The final file with the improved prediction is named bip.gtf.
