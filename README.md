@@ -13,5 +13,5 @@ Instructions:
 2. Go to the directory X and run the pipeline.
 ```
     bash /path/to/directory_X/scripts/runbip.sh  
-
+```
 3. The final file with the improved prediction is named bip.gtf.
