@@ -18,7 +18,7 @@ Pipeline for improving BRAKER2 gene predictions with MS/MS data.
 
 2. Go to the directory X and run the pipeline.
 ```
-    bash /path/to/directory_X/scripts/run_bip.sh  
+   bash /path/to/directory_X/scripts/run_bip.sh  
 ```
 3. The final file with the improved prediction is named ```bip.gtf```.
 
