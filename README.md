@@ -4,7 +4,7 @@ Pipeline for improving BRAKER2 gene predictions with MS/MS data.
 
 Instructions:
 
-1.  Make a directory X. Make a directory “scripts” and “inputs” inside the directory X. The directory “scripts” should contain the following scripts: findhighlysuppprot.py, findandapplyscorefilter.py, findgenespecpept.py, maketxscorestsv.py, unitegtf.py, selectsuppprot.py, runbip.sh. The directory “inputs” should contain the following files without headers:
+1.  Make a directory X. Make a directory “scripts” and “inputs” inside the directory X. The directory “scripts” should contain the following scripts: ```find_highly_supp_prot.py, find_and_apply_score_filter.py, find_gene_spec_pept.py, make_tx_scores_tsv.py, unite_gtf.py, select_supp_prot.py, run_bip.sh```. The directory “inputs” should contain the following files without headers:
 (a) Two .gtf files with the default and relaxed BRAKER2 predictions. The files must be named defaultpred.gtf and relaxedpred.gtf.
 (b) Two .tsv files with transcript BRAKER2 scores. There should be following columns in the .tsv files: 1) protein id (=transcriptid from .gtf files); 2) BRAKER2 transcript score. The files should be named txscoresdefault.tsv and txscoresrelaxed.tsv. If a .gtf file contains transcript scores, this file can be produced by running: 
     python3 /path/to/directoryX/scripts/maketxscorestsv.py\/path/to/directoryX/inputs/predfile.gtf\/path/to/directoryX/inputs/outputfile.tsv
