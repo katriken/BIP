@@ -13,6 +13,7 @@ Pipeline for improving BRAKER2 gene predictions with MS/MS data.
    
 ```python3 /path/to/directory_X/scripts/make_tx_scores_tsv.py/ path/to/directory_X/inputs/pred_file.gtf \ 
            /path/to/directoryX/inputs/output_file.tsv```  
+           
 (c) Two directories containing ```.tsv``` files with peptide mapping data. Each ```.tsv``` file stands for one tissue and should be named accordingly. There should be following columns in the ```.tsv``` files: 1) peptide sequence, 2) protein id (=transcriptid from ```.gtf``` files), 3) ```+``` if peptide is unique (found in one protein), ```-``` if not. These two directories should be named ```mapped_default``` and ```mapped_relaxed```. 
 
 2. Go to the directory X and run the pipeline.
