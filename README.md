@@ -25,4 +25,4 @@ Pipeline for improving BRAKER2 gene predictions with MS/MS data.
 # Contributors
 Author: Kateryna Neishsalo.  
 Supervisors: Prof. Dmitrij Frishman, Prof. Mathias Wilhelm, Dr. Nils Rugen.  
-Additional support from: Prof. Bernhard Küster, Prof. Mark Borodovsky, Dr. Tomáš Brůna.
+Additional support: Prof. Bernhard Küster, Prof. Mark Borodovsky, Dr. Tomáš Brůna.
