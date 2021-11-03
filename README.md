@@ -22,6 +22,6 @@ Pipeline for improving BRAKER2 gene predictions with MS/MS data.
 3. The final file with the improved prediction is named ```bip.gtf```.
 
 # Contributors
-Author: Kateryna Neishsalo
-Supervisors: Prof. Dmitrij Frishman, Prof. Mathias Wilhelm, Dr. Nils Rugen.
+Author: Kateryna Neishsalo. 
+Supervisors: Prof. Dmitrij Frishman, Prof. Mathias Wilhelm, Dr. Nils Rugen.  
 Additional support from: Prof. Bernhard Küster, Prof. Mark Borodovsky, Dr. Tomáš Brůna.
