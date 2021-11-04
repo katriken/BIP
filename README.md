@@ -7,6 +7,11 @@ Pipeline for improving BRAKER2 gene predictions with MS/MS data.
   <img src="https://user-images.githubusercontent.com/74410771/140317953-2900d6cf-2080-47e8-a9a5-c18f6af55bbb.jpg" height="800" alt="Sublime's custom image"/>
 </p>
 
+<span class="img_container center" style="display: block;">
+    <img alt="test" src="https://user-images.githubusercontent.com/74410771/140317953-2900d6cf-2080-47e8-a9a5-c18f6af55bbb.jpg" style="display:block; margin-left: auto; margin-right: auto;" title="caption" />
+    <span class="img_caption" style="display: block; text-align: center;">caption</span>
+</span>
+
 | *The workflow for the improvement of the default BRAKER2 prediction with MS/MS data. The yellow boxes stand for gene predictions, green boxes for peptide sets, the blue box for a number. The main idea is to select supported and high-scoring proteins from the relaxed and default predictions and to combine them. While supported proteins from the relaxed prediction are selected using gene-specific and protein-specific peptides, only protein-specific peptides are considered in case of the default prediction. The sets of supported proteins and highly supported proteins are then utilised to define BRAKER2 score cutoffs and, subsequently, to select high-scoring proteins.* |
 
 
