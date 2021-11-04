@@ -2,7 +2,8 @@
 Pipeline for improving BRAKER2 gene predictions with MS/MS data.
 
 # Description
-![alg](https://user-images.githubusercontent.com/74410771/140315834-c8cd0661-b5d4-4a02-98e2-09eb268e034a.jpg)
+<img src="https://user-images.githubusercontent.com/74410771/140315834-c8cd0661-b5d4-4a02-98e2-09eb268e034a.jpg" width="100" height="100">
+
 
 
 # Prerequisites
