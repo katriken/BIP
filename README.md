@@ -18,7 +18,7 @@ The main idea of the pipeline is to expand the protein search space with a relax
 # Running
 
 1. Make a directory X. Make a directory ```scripts``` and ```inputs``` inside the directory X. The directory ```scripts``` should contain the following scripts: ```make_tx_scores_tsv.py, find_highly_supp_prot.py, find_gene_spec_pept.py, select_supp_prot.py, find_and_apply_score_filter.py, unite_gtf.py, run_bip.sh```. The directory ```inputs``` should contain the following files without headers:   
-  * Two ```.gtf``` files with the default and relaxed BRAKER2 predictions. The files must be named ```default_pred.gtf``` and ```relaxed_pred.gtf```. The instructions for producing a relaxed BRAKER2 prediction can be found in ??? 
+  * Two ```.gtf``` files with the default and relaxed BRAKER2 predictions. The files must be named ```default_pred.gtf``` and ```relaxed_pred.gtf```. The instructions for producing a relaxed BRAKER2 prediction can be found in ```additional_files/BRAKER2_sensitive_instructions.txt```
   * Two ```.tsv``` files with transcript BRAKER2 scores. There should be following columns in the ```.tsv``` files: 1) protein id (=transcriptid from ```.gtf``` files); 2) BRAKER2 transcript score. The files should be named ```tx_scores_default.tsv``` and ```tx_scores_relaxed.tsv```. If a ```.gtf``` file contains transcript scores, this file can be produced by running: 
 ```
   python3 /path/to/directory_X/scripts/make_tx_scores_tsv.py/ path/to/directory_X/inputs/pred_file.gtf \
