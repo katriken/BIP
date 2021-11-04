@@ -5,7 +5,7 @@ Pipeline for improving BRAKER2 gene predictions with MS/MS data.
 The main idea of the pipeline is to expand the protein search space with a relaxed BRAKER2 prediction, to find MS supported proteins, to define BRAKER2 transcript score cutoffs based on supported proteins, and finally to combine supported and high-scoring proteins into the final prediction (Fig. 1). 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74410771/140317953-2900d6cf-2080-47e8-a9a5-c18f6af55bbb.jpg" height="800" alt="Sublime's custom image"/>
+  <img src="https://user-images.githubusercontent.com/74410771/140317953-2900d6cf-2080-47e8-a9a5-c18f6af55bbb.jpg" height="700" alt="Sublime's custom image"/>
 </p>
 <figcaption align = "center">Figure 1: The workflow for the improvement of the default BRAKER2 prediction with MS/MS data. The yellow boxes stand for gene predictions, green boxes for peptide sets, the blue box for a number. While supported proteins from the relaxed prediction are selected using gene-specific and protein-specific peptides, only protein-specific peptides are considered in case of the default prediction. The sets of supported proteins and highly supported proteins are then utilised to define BRAKER2 score cutoffs and, subsequently, to select high-scoring proteins. Finally, supported and high-scoring proteins from both predictions are united into the final prediction. </figcaption>
 
