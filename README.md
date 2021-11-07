@@ -21,7 +21,8 @@ The main idea of the pipeline is to expand the protein search space with a relax
   * Two ```.gtf``` files with the default and relaxed BRAKER2 predictions. The files must be named ```default_pred.gtf``` and ```relaxed_pred.gtf```. The instructions for producing a relaxed BRAKER2 prediction can be found in ```additional_files/BRAKER2_sensitive_instructions.txt```
   * Two ```.tsv``` files with transcript BRAKER2 scores. There should be following columns in the ```.tsv``` files: 1) protein id (=transcriptid from ```.gtf``` files); 2) BRAKER2 transcript score. The files should be named ```tx_scores_default.tsv``` and ```tx_scores_relaxed.tsv```. If a ```.gtf``` file contains transcript scores, this file can be produced by running: 
 ```
-  python3 /path/to/directory_X/scripts/make_tx_scores_tsv.py/ path/to/directory_X/inputs/pred_file.gtf \
+  python3 /path/to/directory_X/scripts/make_tx_scores_tsv.py \
+          /path/to/directory_X/inputs/pred_file.gtf \
           /path/to/directory_X/inputs/output_file.tsv
 ```           
   * Two directories containing ```.tsv``` files with peptide mapping data. Each ```.tsv``` file stands for one tissue and should be named accordingly. There should be following columns in the ```.tsv``` files: 1) peptide sequence, 2) protein id (=transcript_id from ```.gtf``` files), 3) ```+``` if peptide is unique (found in one protein), ```-``` if not. These two directories should be named ```mapped_default``` and ```mapped_relaxed```. 
