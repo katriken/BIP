@@ -29,7 +29,7 @@ The main idea of the pipeline is to expand the protein search space with a relax
 
 2. Go to the directory X and run the pipeline.
 ```
-   bash /path/to/directory_X/scripts/run_bip.sh  
+  bash /path/to/directory_X/scripts/run_bip.sh  
 ```
 3. The final file with the improved prediction is named ```bip.gtf```.
 
