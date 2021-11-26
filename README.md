@@ -1,5 +1,5 @@
 # BIP
-Pipeline for improving BRAKER2 gene predictions with MS/MS data.
+Pipeline for improving BRAKER2 gene predictions with MS/MS data. This is work in progress and the current version is experimental.
 
 # Description
 The main idea of the pipeline is to expand the protein search space with a relaxed BRAKER2 prediction, to find MS supported proteins, to define BRAKER2 transcript score cutoffs based on supported proteins, and finally to combine supported and high-scoring proteins into the final prediction (Fig. 1). 
